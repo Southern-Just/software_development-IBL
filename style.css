@@ -1,0 +1,184 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(202, 172, 172);
+}
+
+header {
+  background-image: linear-gradient(to right, #a83c3c, rgb(8, 122, 8));
+  color: #e79c11;
+  padding: 20px;
+  text-align: center;
+}
+
+#userSection {
+  display: none;
+  margin-top: 10px;
+}
+
+#userSection span {
+  color: #fff;
+  margin-right: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+#loginForm {
+  background-color: rgb(219, 178, 178);
+  justify-content: center;
+  align-items: center;
+  margin-left: 30%;
+  margin-top: 3rem;
+  border: 2px solid black;
+  border-radius: 20%;
+  width: 39rem;
+  height: 17rem;
+  position: absolute;
+}
+
+#loginSection {
+  text-align: center;
+}
+
+form input {
+  display: block;
+  margin-bottom: 10px;
+  width: 33rem;
+  outline: none;
+  padding: 13px;
+  border: 1px solid rgb(21, 66, 66);
+  border-radius: 6px;
+  justify-self: center;
+  top: 2rem;
+  margin-left: 5%;
+  position: relative;
+}
+
+#loginForm p {
+  color: rgb(206, 238, 220);
+}
+
+#loginForm p a {
+  color: rgb(59, 11, 122);
+}
+
+#loginForm p a:hover {
+  color: gold;
+}
+
+#loginForm button {
+  margin-top: 4rem;
+  width: 130px;
+  padding: 10px 20px;
+  background-color: #3a4a63;
+  border-radius: 50%;
+  border: none;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+
+#loginForm button:hover {
+  background-color: #59667a;
+  color: gold;
+}
+/* JournalSection*/
+h2{
+  color: maroon;
+  align-self: center;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+#journalForm{
+  border:2px solid rgb(88, 37, 61) ;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10rem;
+  padding: 10px;
+  margin-top: 3rem;
+  margin-left: 30px;
+  border-radius: 9px;
+  width:90%;
+  height: 17rem;
+}
+#journalForm #entryTitle{
+  width: 230px;
+  margin-bottom: 13rem;
+}
+#journalSection .file{
+  margin-left: 3rem;
+  margin-top: .2rem;
+  width: 50%;
+
+}
+#journalForm textarea{
+  width:45rem;
+  height: 15rem;
+  outline: none;
+  background-color: rgb(228, 195, 195);
+  border: 2px solid green;
+  border-bottom: 2px solid rgb(126, 61, 7);
+  border-radius: 9px 0 17px 0;
+  text-align: start;
+  text-indent: 2cm;
+  text-overflow: clip;
+  font-size: large;
+}
+#journalSection button{
+  margin-left: 68rem;
+  background: rgb(88, 37, 61);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 0 7px 9px 9px;
+  width: 120px;
+  height: 30px;
+}
+#journalSection button:hover{
+  background:rgb(77, 43, 59);
+  transform: scale(.98,.98);
+}
+#registerSection h2,
+#registerSection p{
+  margin-left: 45%;
+  position: relative;
+}
+#registerForm{
+  display: grid;
+  padding: 0 10px;
+  background-color: rgb(107, 88, 88);
+  margin-left: 30%;
+  margin-top: 3rem;
+  border: 2px solid black;
+  border-radius: 9px;
+  width: 39rem;
+  height: 17rem;
+}
+#registerForm input{
+  height: 20px;
+  padding: 10px;
+}
+#registerForm button{
+  width: 130px;
+  justify-self: center;
+  height: 70px;
+  color: rgb(95, 10, 10);
+  font-weight: 600;
+}#registerForm button:hover{
+  transform: scale(.96,.96);
+
+}
+
+#entriesList{
+  display: flex;
+  row-gap: 20px;
+  padding-left: 10px;
+  margin-top: 20px;
+  border: 2px solid green;
+  align-items: center;
+  border-radius: 7px;
+}
