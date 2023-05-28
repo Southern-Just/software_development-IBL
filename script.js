@@ -56,17 +56,18 @@ function fetchEntries() {
 
 function displayEntries(entries) {
   entriesList.innerHTML = '';
-  
+
   entries.forEach(entry => {
     const entryElement = document.createElement('div');
+    entryElement.classList.add('entry');
+
     entryElement.innerHTML = `
       <h2>${entry.title}</h2>
       <p>${entry.content}</p>
+      ${entry.image ? `<img src="${entry.image}" alt="Entry Image">` : ''}
       <p>${entry.timestamp}</p>
     `;
+
     entriesList.appendChild(entryElement);
   });
 }
-
-// Fetch the entries when the page loads
-fetchEntries();
